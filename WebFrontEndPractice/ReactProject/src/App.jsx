@@ -25,21 +25,22 @@ import './App.css'
 // import { FoodImageApp } from './components/04W/FoodImage'
 // import MyProps from './components/04W/MyProps'
 
-// // 5주차
-// import SpreadOp from './components/05W/SpreadOp'
-// import ScoreDestructure from './components/05W/ScoreDestructure'
-// import Counter from './components/05W/Counter'
-// import LikeBtn from './components/05W/LikeBtn'
-// import StateOnOff from './components/05W/StateOnOff'
+// 5주차
+import SpreadOp from './components/05W/SpreadOp'
+import ScoreDestructure from './components/05W/ScoreDestructure'
+import Counter from './components/05W/Counter'
+import LikeBtn from './components/05W/LikeBtn'
+import StateOnOff from './components/05W/StateOnOff'
+import Order from './components/05W/Order'
 
-// 6주차
-import OnChangeEvent from './components/06W/OnChangeEvent'
-import MouseOver from './components/06W/MouseOver'
-import MyEvent from './components/06W/MyEvent'
-import ReturnMap from './components/06W/ReturnMap'
-import LoginForm from './components/06W/LoginForm'
-import Product from './components/06W/Product'
-import Navbar from './components/06W/Navbar'
+// // 6주차
+// import OnChangeEvent from './components/06W/OnChangeEvent'
+// import MouseOver from './components/06W/MouseOver'
+// import MyEvent from './components/06W/MyEvent'
+// import ReturnMap from './components/06W/ReturnMap'
+// import LoginForm from './components/06W/LoginForm'
+// import Product from './components/06W/Product'
+// import Navbar from './components/06W/Navbar'
 
 function App() {
 
@@ -151,37 +152,39 @@ function App() {
     //   />
     // </>
 
-    // // 5주차
-    // <>
-    //   <SpreadOp />
-    //   <hr />
-    //   <ScoreDestructure />
-    //   <hr />
-    //   <Counter />
-    //   <hr />
-    //   <LikeBtn />
-    //   <hr />
-    //   <StateOnOff />
-    // </>
-
-    // 6주차
+    // 5주차
     <>
-      <OnChangeEvent />
+      <SpreadOp />
       <hr />
-      <MouseOver />
+      <ScoreDestructure />
       <hr />
-      <MyEvent />
+      <Counter />
       <hr />
-      <h1>Hello React</h1>
-      <p>CSS 적용하기</p>
-      <ReturnMap />
+      <LikeBtn />
       <hr />
-      <Product />
+      <StateOnOff />
       <hr />
-      <LoginForm />
-      <hr />
-      <Navbar />
+      <Order />
     </>
+
+    // // 6주차
+    // <>
+    //   <OnChangeEvent />
+    //   <hr />
+    //   <MouseOver />
+    //   <hr />
+    //   <MyEvent />
+    //   <hr />
+    //   <h1>Hello React</h1>
+    //   <p>CSS 적용하기</p>
+    //   <ReturnMap />
+    //   <hr />
+    //   <Product />
+    //   <hr />
+    //   <LoginForm />
+    //   <hr />
+    //   <Navbar />
+    // </>
 
   )
 }

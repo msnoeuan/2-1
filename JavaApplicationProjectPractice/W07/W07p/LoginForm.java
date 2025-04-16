@@ -24,8 +24,9 @@ public class LoginForm extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String strEmail = email.getText();
+                String strPwd = pwd.getText();
 
-                if(strEmail.equals("hong@google.com"))
+                if(strEmail.equals("hong@google.com") && strPwd.equals("1234"))
                     System.out.println("로그인되었습니다.");
                 else
                     System.out.println("이메일과 비밀번호를 다시 입력하십시오.");

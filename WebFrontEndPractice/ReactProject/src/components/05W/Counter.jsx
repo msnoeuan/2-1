@@ -2,9 +2,9 @@
 import React, {useState} from 'react';
 
 function Counter() {
-    const [number, setNumber] = useState(0);
+    const [number, setNumber] = useState(0);  // [읽기 전용 변수, 함수] => 함수를 사용하여 number 값 변경
 
-    const onIncrease = () => {setNumber(number + 1)};
+    const onIncrease = () => {setNumber(number + 1)};  // 이벤트 핸들러는 함수 이름 뒤에 () 사용 X
     const onDecrease = () => {setNumber(number - 1)};
 
     return (

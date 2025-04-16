@@ -71,16 +71,20 @@ public class StudentApp extends JFrame {
         btnSelect.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println("검색할 학생 이름을 쓰시오 : ");
+                boolean find = false;
+                System.out.print("검색할 학생 이름을 쓰시오 : ");
                 String name = sc.next();
 
                 for(Student st : studentList) {
-                    if(st.getName().equals(name))
-                        System.out.println((st));
-                    else
-                        System.out.println("입력한 학생 정보가 조회되지 않습니다.");
+                    if(st.getName().equals(name)) {
+                        System.out.println(st);
+                        find = true;
+                        break;
+                    }
                 }
 
+                if(!find)
+                    System.out.println("입력하신 학생 정보가 조회되지 않았습니다.");
             }
         });
 
