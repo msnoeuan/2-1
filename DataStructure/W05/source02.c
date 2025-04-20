@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(int argc, char* argv[]) {  // argv[0] => 실행 파일

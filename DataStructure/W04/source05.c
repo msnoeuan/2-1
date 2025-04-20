@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-  int* pi, k;
+  int* pi, k;  // pi는 int* / k는 int형 변수
   pi = (int*)malloc(5 * sizeof(int));
 
   if(pi == NULL) {

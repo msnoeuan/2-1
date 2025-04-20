@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/yooseungmin/Desktop/2-1/DataStructure/W04/cmake-bui
 
 build cmake_object_order_depends_target_W04: phony || .
 
-build CMakeFiles/W04.dir/source06.c.o: C_COMPILER__W04_unscanned_Debug /Users/yooseungmin/Desktop/2-1/DataStructure/W04/source06.c || cmake_object_order_depends_target_W04
-  DEP_FILE = CMakeFiles/W04.dir/source06.c.o.d
+build CMakeFiles/W04.dir/source03.c.o: C_COMPILER__W04_unscanned_Debug /Users/yooseungmin/Desktop/2-1/DataStructure/W04/source03.c || cmake_object_order_depends_target_W04
+  DEP_FILE = CMakeFiles/W04.dir/source03.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/W04.dir
   OBJECT_FILE_DIR = CMakeFiles/W04.dir
@@ -63,7 +63,7 @@ build CMakeFiles/W04.dir/source06.c.o: C_COMPILER__W04_unscanned_Debug /Users/yo
 #############################################
 # Link the executable W04
 
-build W04: C_EXECUTABLE_LINKER__W04_Debug CMakeFiles/W04.dir/source06.c.o
+build W04: C_EXECUTABLE_LINKER__W04_Debug CMakeFiles/W04.dir/source03.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/W04.dir
   POST_BUILD = :
