@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/yooseungmin/Desktop/2-1/DataStructure/W02/cmake-bui
 
 build cmake_object_order_depends_target_W02: phony || .
 
-build CMakeFiles/W02.dir/source09.c.o: C_COMPILER__W02_unscanned_Debug /Users/yooseungmin/Desktop/2-1/DataStructure/W02/source09.c || cmake_object_order_depends_target_W02
-  DEP_FILE = CMakeFiles/W02.dir/source09.c.o.d
+build CMakeFiles/W02.dir/source07.c.o: C_COMPILER__W02_unscanned_Debug /Users/yooseungmin/Desktop/2-1/DataStructure/W02/source07.c || cmake_object_order_depends_target_W02
+  DEP_FILE = CMakeFiles/W02.dir/source07.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/W02.dir
   OBJECT_FILE_DIR = CMakeFiles/W02.dir
@@ -63,7 +63,7 @@ build CMakeFiles/W02.dir/source09.c.o: C_COMPILER__W02_unscanned_Debug /Users/yo
 #############################################
 # Link the executable W02
 
-build W02: C_EXECUTABLE_LINKER__W02_Debug CMakeFiles/W02.dir/source09.c.o
+build W02: C_EXECUTABLE_LINKER__W02_Debug CMakeFiles/W02.dir/source07.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk
   OBJECT_DIR = CMakeFiles/W02.dir
   POST_BUILD = :

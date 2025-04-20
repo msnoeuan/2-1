@@ -25,13 +25,13 @@ import './App.css'
 // import { FoodImageApp } from './components/04W/FoodImage'
 // import MyProps from './components/04W/MyProps'
 
-// 5주차
-import SpreadOp from './components/05W/SpreadOp'
-import ScoreDestructure from './components/05W/ScoreDestructure'
-import Counter from './components/05W/Counter'
-import LikeBtn from './components/05W/LikeBtn'
-import StateOnOff from './components/05W/StateOnOff'
-import Order from './components/05W/Order'
+// // 5주차
+// import SpreadOp from './components/05W/SpreadOp'
+// import ScoreDestructure from './components/05W/ScoreDestructure'
+// import Counter from './components/05W/Counter'
+// import LikeBtn from './components/05W/LikeBtn'
+// import StateOnOff from './components/05W/StateOnOff'
+// import Order from './components/05W/Order'
 
 // // 6주차
 // import OnChangeEvent from './components/06W/OnChangeEvent'
@@ -41,6 +41,9 @@ import Order from './components/05W/Order'
 // import LoginForm from './components/06W/LoginForm'
 // import Product from './components/06W/Product'
 // import Navbar from './components/06W/Navbar'
+
+// 7주차
+import IterationSample from './components/07W/IterationSample'
 
 function App() {
 
@@ -152,20 +155,20 @@ function App() {
     //   />
     // </>
 
-    // 5주차
-    <>
-      <SpreadOp />
-      <hr />
-      <ScoreDestructure />
-      <hr />
-      <Counter />
-      <hr />
-      <LikeBtn />
-      <hr />
-      <StateOnOff />
-      <hr />
-      <Order />
-    </>
+    // // 5주차
+    // <>
+    //   <SpreadOp />
+    //   <hr />
+    //   <ScoreDestructure />
+    //   <hr />
+    //   <Counter />
+    //   <hr />
+    //   <LikeBtn />
+    //   <hr />
+    //   <StateOnOff />
+    //   <hr />
+    //   <Order />
+    // </>
 
     // // 6주차
     // <>
@@ -185,6 +188,12 @@ function App() {
     //   <hr />
     //   <Navbar />
     // </>
+
+    // 7주차
+    <>
+      <h1>동적배열 렌더링</h1>
+      <IterationSample />
+    </>
 
   )
 }

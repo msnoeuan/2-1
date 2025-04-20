@@ -8,12 +8,13 @@ void main() {
     idata = -911;
     fdata = 3.1416;
 
-    ip = &idata;
-    fp = &fdata;
+    ip = &idata;  // idata의 주소 값
+    fp = &fdata;  // fdata의 주소 값
 
     printf("int pointer = %u\n", ip);  // 부호 없는 10진수(unsigned int)로 출력할 때 사용하는 형식 지정자
     printf("int pointer = %p\n", ip);
     printf("int data = %d\n", *ip);
     printf("double pointer = %u\n", fp);
+    printf("double pointer = %p\n", fp);
     printf("double data = %.4f\n", *fp);
 }

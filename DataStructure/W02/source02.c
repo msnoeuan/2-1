@@ -12,10 +12,10 @@ void main() {
     printf("Enter string2 : ");
     fgets(carray2, sizeof(carray2), stdin);
 
-    // 개행문자를 제거하고 싶을 때 사용
-    // strcspn(const char *str1, const char *str2) : str1 문자열에서 str2에 포함된 어떤 문자라도 처음으로 등장하는 위치의 인덱스를 반환
-    // carray1[strcspn(carray1, "\n")] = '\0';
-    // carray2[strcspn(carray2, "\n")] = '\0';
+//     개행문자를 제거하고 싶을 때 사용
+//     strcspn(const char *str1, const char *str2) : str1 문자열에서 str2에 포함된 어떤 문자라도 처음으로 등장하는 위치의 인덱스를 반환
+//     carray1[strcspn(carray1, "\n")] = '\0';
+//     carray2[strcspn(carray2, "\n")] = '\0';
 
     printf("the length of string = %d\n", strlen(carray1));  // strlen() : 문자열의 길이를 반환하는 함수 / <string.h>에 포함
     printf("the length of string = %d\n", strlen(carray2));

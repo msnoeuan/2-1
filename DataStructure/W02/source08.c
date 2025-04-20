@@ -12,6 +12,7 @@ void main() {
 
   for(int i = 1; i <= n; i ++) {
     int temp1 = 0, temp2 = 1;
+
     for(int j = 1; j <= i; j ++) {
       temp1 += j;
       temp2 *= j;

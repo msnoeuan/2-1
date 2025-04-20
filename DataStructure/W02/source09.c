@@ -1,5 +1,4 @@
 // 음수가 나올 때까지 양수를 읽은 후, 입력된 데이터 수와 최대 값을 구하는 알고리즘을 작성하시오(단 처음부터 음수를 입력하는 경우“No data!!”라고 출력하고 끝낸다).
-#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 void main() {
