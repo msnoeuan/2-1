@@ -44,6 +44,7 @@ import './App.css'
 
 // 7주차
 import IterationSample from './components/07W/IterationSample'
+import Register from './components/07W/Register01'
 
 function App() {
 
@@ -193,6 +194,7 @@ function App() {
     <>
       <h1>동적배열 렌더링</h1>
       <IterationSample />
+      <Register />
     </>
 
   )
