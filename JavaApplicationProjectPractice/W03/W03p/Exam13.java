@@ -14,11 +14,24 @@ public class Exam13 {
             //문자열이 같으면 이곳을 수행
         }
 
+        /*
+        * - 인터페이스는 인스턴스를 만들 수 없음
+        * - 익명 클래스를 선언하면서 동시에 객체 생성
+        */
         ClickListener listener = (new ClickListener() {
             public void print() {
                 System.out.println("클릭 리스너입니다.");
             }
         });
+        /*
+        * class 익명클래스이름 implements ClickListener {
+        *   public void print() {
+        *       System.out.println("클릭 리스너입니다.");
+        *   }
+        * }
+        *
+        * ClickListener listener = new 익명클래스이름();
+        */
 
         listener.print();
     }
