@@ -44,7 +44,7 @@ import './App.css'
 
 // 7주차
 import IterationSample from './components/07W/IterationSample'
-import Register from './components/07W/Register01'
+import Register from './components/07W/Register'
 
 function App() {
 

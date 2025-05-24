@@ -21,8 +21,9 @@ function MyEvent() {
         setNames(nextNames);
         setInputText("");
     }
+
     const onRemove = id => {
-        const nextNames = names.filter(name => names.id !== id);
+        const nextNames = names.filter(name => name.id !== id);
         setNames(nextNames);
     }
 
