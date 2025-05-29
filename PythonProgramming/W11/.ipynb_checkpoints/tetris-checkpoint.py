@@ -17,7 +17,7 @@ pygame.init()
 # 화면 크기 설정
 WIDTH, HEIGHT = 300, 600  # 너비, 높이 - 픽셀
 ROWS, COLS = 20, 10  # 행, 열 - 칸
-BLOCK_SIZE = WIDTH // COLS  # 한 칸(한 블록)의 가로 크기 : 300 // 10 = 30
+BLOCK_SIZE = WIDTH // COLS  # 한 칸(한 블록)의 변의 길이 : 300 // 10 = 30
 
 # 색상 정의
 WHITE = (255, 255, 255)
@@ -145,4 +145,3 @@ def main() :
 # 파일을 실행했을 때만 main() 함수 실행
 if __name__ == "__main__" :
     main()
-

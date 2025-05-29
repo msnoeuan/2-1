@@ -12,8 +12,18 @@
       <sourceFolder url="file://$MODULE_DIR$/W09" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/W11" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/W12" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/W13" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/mysql-connector-j-8.0.33.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
