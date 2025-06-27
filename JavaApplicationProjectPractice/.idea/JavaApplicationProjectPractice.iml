@@ -13,6 +13,9 @@
       <sourceFolder url="file://$MODULE_DIR$/W11" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/W12" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/W13" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/W10" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pra" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/par01" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -25,5 +28,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

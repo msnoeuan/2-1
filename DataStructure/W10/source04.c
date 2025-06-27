@@ -61,7 +61,7 @@ element poplist() {
     exit(1);
   }
   else {
-    dnode = top;
+    dnode = top;  // top은 연결된 노드들의 출발점 역할
     item = dnode -> data;
     top = top -> next;
     free(dnode);
@@ -69,3 +69,9 @@ element poplist() {
     return item;
   }
 }
+
+/*
+ * 구조체 대신 구조체 포인터를 사용하는 이유(top, inode, dnode 등)
+ * - 데이터 연결을 위해 : 구조체 자체를 넣으면 원본이 아니라 복사본이 들어가게 됨
+ * - 동적할당 사용 : malloc() 함수는 주소를 반환함
+ */

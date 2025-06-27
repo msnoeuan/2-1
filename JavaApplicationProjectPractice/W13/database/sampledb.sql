@@ -1,12 +1,12 @@
-drop database if exists sampledb;
-create database sampledb;
-use sampledb;
+drop database if exists sampledbW13;
+create database sampledbW13;
+use sampledbW13;
 
 drop table if exists student;
 create table student(
-	id varchar(7) primary key,
-    name varchar(10),
-    dept varchar(10)
+	id varchar(20) primary key,
+    name varchar(20),
+    dept varchar(20)
 );
 
 -- 입력
